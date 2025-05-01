@@ -1,7 +1,7 @@
 <?php
 require_once 'Config/DB.php';
 
-class Prodi
+class Project
 {
     private $pdo;
 
@@ -36,4 +36,4 @@ class Prodi
     }
 }
 
-$prodi = new Prodi($pdo);
+$project = new Project($pdo);
